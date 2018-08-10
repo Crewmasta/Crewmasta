@@ -12,6 +12,11 @@ client.on('message', msg => {
 });
 
 
+fs.writeFile('./test.json', ("{}"), function(err) {
+if(err) console.log(err);
+});
+
+
 client.on('message', message => {
   if (!message.guild) return;
 
