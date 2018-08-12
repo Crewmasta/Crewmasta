@@ -737,16 +737,7 @@ client.setInterval(function() {
   }, time);
 });
 
-client.on("message", message => {
-    var prefix = ".";
- if (message.content.startsWith (prefix + "help")) {
- message.channel.sendMessage(`**__Commands-List!__**
- __**.help**__ لأظهار هذة الرسالة
- __**.help-en**__ لأظهار اوامر البوت باللغة الأنجليزية
- __**.help-ar**__ لأظهار اوامر البوت باللغة العربية`)
- var embed = new Discord.RichEmbed();
-} 
-});
+
 
 
 
