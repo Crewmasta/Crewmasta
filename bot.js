@@ -25,7 +25,8 @@ if (message.content.startsWith(prefix + 'help')) {
 .hug
 .say
 .id
-.kick`]
+.kick
+.clear`]
     let page = 1;
 
     let embed = new Discord.RichEmbed()
